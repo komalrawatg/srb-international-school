@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admissions | SRB International School</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<header class="main-header">
+    <div class="container navbar">
+        <a href="index.html" class="logo">
+            		<div class="logo-icon">
+    <img src="assets/images/logo.jpeg" alt="SRB International School Logo">
+</div>
+            <div class="logo-text">
+                <h1>S.R.B</h1>
+                <p>INTERNATIONAL SCHOOL</p>
+            </div>
+        </a>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="academics.html">Academics</a>
+            <a href="facilities.html">Facilities</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="admissions.html" class="active">Admissions</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="admissions.html" class="btn btn-gold btn-nav">Enquire Now</a>
+        </nav>
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<section class="sub-hero" style="background-image: linear-gradient(rgba(5, 28, 62, 0.85), rgba(5, 28, 62, 0.85)), url('assets/images/admissions/admission-banner.jpeg');">
+    <div class="container text-center">
+        <h2>ADMISSIONS</h2>
+        <p><a href="index.html">Home</a> &nbsp;/&nbsp; Admissions</p>
+    </div>
+</section>
+
+<section class="admission-guidelines section-padding">
+    <div class="container grid-2-wide">
+        <div>
+            <div class="section-title-left">
+                <span>STEP BY STEP GUIDANCE</span>
+                <h2>Admission Process & Registration</h2>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-num">01</div>
+                    <div class="step-txt">
+                        <h3>Enquiry & Registration</h3>
+                        <p>Submit inquiry form online or physically collect the application brochure portfolio form from the corporate office desk.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">02</div>
+                    <div class="step-txt">
+                        <h3>Interaction & Assessment</h3>
+                       <p>Students may be required to appear for an interaction or assessment based on the grade applied for.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">03</div>
+                    <div class="step-txt">
+                        <h3>Document Verification</h3>
+                        <p>Produce active authentic legal credentials, birth registry certificates and previous academic clearance statements.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">04</div>
+                    <div class="step-txt">
+                        <h3>Fee Submission</h3>
+                       <p>Complete the admission formalities and fee payment to confirm admission.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-light p-4 img-rounded">
+            <h3 class="border-bottom pb-2 mb-3">Eligibility Requirements</h3>
+            <table class="table-info">
+                <tr><th>Grade Level</th><th>Minimum Age Benchmark</th></tr>
+                <tr><td>Nursery</td><td>3+ Years as of March 31st</td></tr>
+                <tr><td>KG / Prep</td><td>4+ Years as of March 31st</td></tr>
+                <tr><td>Grade I</td><td>5+ Years as of March 31st</td></tr>
+                <tr><td>Grades II-X</td><td>Based on valid verified dynamic transfer records</td></tr>
+            </table>
+
+            <h3 class="border-bottom pb-2 mb-3 mt-4">Mandatory Documentation</h3>
+            <ul class="level-list">
+                <li><i class="fas fa-file-alt gold-text"></i> Certified Municipal Birth Registration Record</li>
+                <li><i class="fas fa-file-alt gold-text"></i> Counter-signed Authentic School Leaving Certificate</li>
+                <li><i class="fas fa-file-alt gold-text"></i> Marksheet analytics summary logs of preceding class</li>
+                <li><i class="fas fa-file-alt gold-text"></i> 4 Passport scale current coloration graphics photos</li>
+                <li><i class="fas fa-file-alt gold-text"></i> Copy of Guardian identity maps (Aadhar Card etc.)</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="enquiry-section section-padding bg-blue text-white">
+    <div class="container max-w-800">
+        <div class="section-title text-center">
+            <span class="gold-text">ONLINE APPLICATION PROMPT</span>
+            <h2 class="text-white">Admission Enquiry Form</h2>
+            <p class="mt-2 text-white-50">
+Submit your enquiry and our admission team will contact you shortly.
+</p>
+        </div>
+
+        <form class="enquiry-form mt-4" id="enquiryForm">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="studentName">Student Full Name *</label>
+                    <input type="text" id="studentName" required class="form-control" placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="parentName">Parent / Guardian Name *</label>
+                    <input type="text" id="parentName" required class="form-control" placeholder="Robert Doe">
+                </div>
+                <div class="form-group">
+                    <label for="mobileNumber">Contact Mobile Number *</label>
+                    <input type="tel" id="mobileNumber" required class="form-control" placeholder="+91 99999 99999">
+                </div>
+                <div class="form-group">
+                    <label for="emailAdd">Email Address</label>
+                    <input type="email" id="emailAdd" class="form-control" placeholder="guardian@domain.com">
+                </div>
+                <div class="form-group select-wrapper">
+                    <label for="targetClass">Seeking Admission in Class *</label>
+                    <select id="targetClass" required class="form-control">
+                        <option value="">-- Choose Target Grade --</option>
+                        <option value="nursery">Nursery & Pre-Primary</option>
+                        <option value="primary">Primary (I-V)</option>
+                        <option value="middle">Middle (VI-VIII)</option>
+                        <option value="secondary">Senior Secondary (IX-XII)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group mt-3">
+                <label for="messageNote">Additional Message / Background Information</label>
+                <textarea id="messageNote" rows="4" class="form-control" placeholder="Specify special learning requirements, sports history profile, or hostel request features if applicable..."></textarea>
+            </div>
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-gold btn-lg">Transmit Application Enquiry</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container grid-4">
+        <div class="footer-col">
+            <div class="footer-logo">
+                <h2>S.R.B</h2>
+                <p>INTERNATIONAL SCHOOL</p>
+            </div>
+            <p class="footer-about-text">A modern educational hub focused on standard global methodologies, holistic lifestyle preparation, ethical code maps, and rigorous CBSE conceptual paradigms.</p>
+        </div>
+        <div class="footer-col">
+            <h3>QUICK LINKS</h3>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>OUR FACILITIES</h3>
+            <ul class="footer-links">
+                <li><a href="facilities.html">Smart Classrooms</a></li>
+                <li><a href="facilities.html">Science Lab</a></li>
+                <li><a href="facilities.html">Library</a></li>
+                <li><a href="facilities.html">Sports</a></li>
+                <li><a href="facilities.html">Transport</a></li>
+                <li><a href="facilities.html">Medical Room</a></li>
+                <li><a href="facilities.html">CCTV Security</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>CONTACT INFO</h3>
+            <ul class="footer-contact">
+                <li><i class="fas fa-map-marker-alt"></i> Surir, Mathura, Uttar Pradesh - 281205</li>
+                <li><i class="fas fa-phone"></i> +91 8860423009</li>
+                <li><i class="fas fa-envelope"></i> srbinternationalschool4@gmail.com</li>
+                <li><i class="fas fa-clock"></i> Mon - Sat: 8:00 AM - 4:00 PM</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container footer-bottom-content">
+            <p>&copy; 2026 SRB International School. All Rights Reserved.</p>
+            <p>Designed by KomalRawaat <i class="fas fa-heart" style="color: #d4af37;"></i> For Education</p>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
