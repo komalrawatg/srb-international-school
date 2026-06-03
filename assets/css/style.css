@@ -468,4 +468,18 @@ html { font-size: 15px; }
         opacity:1;
         transform:translateY(0);
     }
+
+    /* ==========================================================================
+       CBSE Mandatory Disclosure Dropdown Fix
+       ========================================================================== */
+    .nav-dropdown-container:hover .custom-hover-menu {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+
+    .custom-hover-menu a:hover {
+        background-color: #f7f9fc !important;
+        color: #d4af37 !important;
+    }
 }

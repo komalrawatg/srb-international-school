@@ -26,7 +26,16 @@
         <nav class="nav-menu">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
-            <a href="academics.html" class="active">Academics</a>
+            <div class="nav-dropdown-container" style="display: inline-block; position: relative; padding: 10px 0; overflow: visible !important;">
+                <a href="javascript:void(0);" onclick="var m = document.getElementById('disclosureMenu'); m.style.display = m.style.display === 'block' ? 'none' : 'block';" class="dropdown-toggle" style="cursor: pointer; padding-right: 5px; text-decoration: none; font-weight: 600; color: #051c3e;">
+                    Academics <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 2px; color: #d4af37;"></i>
+                </a>
+                <div id="disclosureMenu" class="custom-hover-menu shadow" style="display: none; position: absolute; top: 100%; left: 0; background-color: #ffffff; min-width: 190px; border-radius: 4px; border-top: 3px solid #d4af37; z-index: 9999999 !important; padding: 5px 0; box-shadow: 0 10px 25px rgba(0,0,0,0.15); overflow: visible !important;">
+                    <a href="disclosure.html" style="color: #051c3e !important; padding: 12px 18px; display: block; font-size: 0.9rem; font-weight: 600; text-decoration: none; transition: all 0.2s; white-space: nowrap; text-transform: none; border-bottom: none;" onmouseover="this.style.backgroundColor='#f7f9fc'; this.style.color='#d4af37';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#051c3e';">Academics Overview</a>
+                    <a href="academics.html" style="color: #051c3e !important; padding: 12px 18px; display: block; font-size: 0.9rem; font-weight: 600; text-decoration: none; transition: all 0.2s; white-space: nowrap; text-transform: none; border-bottom: none;" onmouseover="this.style.backgroundColor='#f7f9fc'; this.style.color='#d4af37';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#051c3e';">Public Disclosure</a>
+                </div>
+            </div>
+<!--            <a href="academics.html" class="active">Academics</a>-->
             <a href="facilities.html">Facilities</a>
             <a href="gallery.html">Gallery</a>
             <a href="admissions.html">Admissions</a>
@@ -90,21 +99,21 @@
             <h2>Detailed Curriculum Portfolios</h2>
         </div>
 
-        <div class="academic-level-card grid-2-wide">
-            <div class="level-img">
-                <img src="assets/images/academics/Nursery.jpeg" alt="Nursery & Pre-Primary">
-            </div>
-            <div class="level-details">
-                <h3>Nursery & Pre-Primary</h3>
-                <p class="gold-text bold">A joyful beginning with play based learning methodologies.</p>
-                <p>Focuses on basic spatial tracking, motor coordination metrics, vocal alignment structures and primary interaction principles via immersive play toolsets.</p>
-                <ul class="level-list">
-                    <li><i class="fas fa-check-circle"></i> Activity oriented methodology guidelines</li>
-                    <li><i class="fas fa-check-circle"></i> Theme-based learning models</li>
-                    <li><i class="fas fa-check-circle"></i> Personal care and highly warm environments</li>
-                </ul>
-            </div>
-        </div>
+<!--        <div class="academic-level-card grid-2-wide">-->
+<!--            <div class="level-img">-->
+<!--                <img src="assets/images/academics/Nursery.jpeg" alt="Nursery & Pre-Primary">-->
+<!--            </div>-->
+<!--            <div class="level-details">-->
+<!--                <h3>Nursery & Pre-Primary</h3>-->
+<!--                <p class="gold-text bold">A joyful beginning with play based learning methodologies.</p>-->
+<!--                <p>Focuses on basic spatial tracking, motor coordination metrics, vocal alignment structures and primary interaction principles via immersive play toolsets.</p>-->
+<!--                <ul class="level-list">-->
+<!--                    <li><i class="fas fa-check-circle"></i> Activity oriented methodology guidelines</li>-->
+<!--                    <li><i class="fas fa-check-circle"></i> Theme-based learning models</li>-->
+<!--                    <li><i class="fas fa-check-circle"></i> Personal care and highly warm environments</li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
 
         <div class="academic-level-card grid-2-wide inverse">
             <div class="level-details">
@@ -138,21 +147,21 @@
             </div>
         </div>
 
-        <div class="academic-level-card grid-2-wide inverse">
-            <div class="level-details">
-                <h3>High & Senior Secondary (Grades IX to XII)</h3>
-                <p class="gold-text bold">Academic excellence with character development & stream specialization.</p>
-                <p>Rigorous boards preparatory frameworks offering specialized streams: Science, Commerce & Humanities. Structured around maximizing score parameters and cracked selection arrays.</p>
-                <ul class="level-list">
-                    <li><i class="fas fa-check-circle"></i> Rigorous laboratory experimentation arrays</li>
-                    <li><i class="fas fa-check-circle"></i> Mock board validation tracking models</li>
-                    <li><i class="fas fa-check-circle"></i> Career path orientation & tracking advice</li>
-                </ul>
-            </div>
-            <div class="level-img">
-                <img src="assets/images/academics/senior-secondary.jpeg" alt="Senior Secondary">
-            </div>
-        </div>
+<!--        <div class="academic-level-card grid-2-wide inverse">-->
+<!--            <div class="level-details">-->
+<!--                <h3>High & Senior Secondary (Grades IX to XII)</h3>-->
+<!--                <p class="gold-text bold">Academic excellence with character development & stream specialization.</p>-->
+<!--                <p>Rigorous boards preparatory frameworks offering specialized streams: Science, Commerce & Humanities. Structured around maximizing score parameters and cracked selection arrays.</p>-->
+<!--                <ul class="level-list">-->
+<!--                    <li><i class="fas fa-check-circle"></i> Rigorous laboratory experimentation arrays</li>-->
+<!--                    <li><i class="fas fa-check-circle"></i> Mock board validation tracking models</li>-->
+<!--                    <li><i class="fas fa-check-circle"></i> Career path orientation & tracking advice</li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div class="level-img">-->
+<!--                <img src="assets/images/academics/senior-secondary.jpeg" alt="Senior Secondary">-->
+<!--            </div>-->
+<!--        </div>-->
 
     </div>
 </section>
