@@ -1,41 +1,39 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academics | SRB International School</title>
-
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-<header class="main-header">
-    <div class="container navbar">
+<header class="main-header" style="overflow: visible !important; position: relative; z-index: 999999 !important;">
+    <div class="container navbar" style="overflow: visible !important;">
         <a href="index.html" class="logo">
-            		<div class="logo-icon">
-    <img src="assets/images/logo.jpeg" alt="SRB International School Logo">
-</div>
+            <div class="logo-icon">
+                <img src="assets/images/logo.jpeg" alt="SRB International School Logo">
+            </div>
             <div class="logo-text">
                 <h1>S.R.B</h1>
                 <p>INTERNATIONAL SCHOOL</p>
             </div>
         </a>
-        <nav class="nav-menu">
+        <nav class="nav-menu" style="overflow: visible !important; display: flex; align-items: center;">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
+
+            <!-- Academics Interactive Click Dropdown (Only Public Disclosure Link For Academics Page) -->
             <div class="nav-dropdown-container" style="display: inline-block; position: relative; padding: 10px 0; overflow: visible !important;">
-                <a href="javascript:void(0);" onclick="var m = document.getElementById('disclosureMenu'); m.style.display = m.style.display === 'block' ? 'none' : 'block';" class="dropdown-toggle" style="cursor: pointer; padding-right: 5px; text-decoration: none; font-weight: 600; color: #051c3e;">
+                <a href="javascript:void(0);" onclick="var m = document.getElementById('disclosureMenu'); m.style.display = m.style.display === 'block' ? 'none' : 'block';" class="dropdown-toggle active" style="cursor: pointer; padding-right: 5px; text-decoration: none; font-weight: 600;">
                     Academics <i class="fas fa-chevron-down" style="font-size: 0.7rem; margin-left: 2px; color: #d4af37;"></i>
                 </a>
+                <!-- Dropdown Engine Overlay Menu -->
                 <div id="disclosureMenu" class="custom-hover-menu shadow" style="display: none; position: absolute; top: 100%; left: 0; background-color: #ffffff; min-width: 190px; border-radius: 4px; border-top: 3px solid #d4af37; z-index: 9999999 !important; padding: 5px 0; box-shadow: 0 10px 25px rgba(0,0,0,0.15); overflow: visible !important;">
-                    <a href="disclosure.html" style="color: #051c3e !important; padding: 12px 18px; display: block; font-size: 0.9rem; font-weight: 600; text-decoration: none; transition: all 0.2s; white-space: nowrap; text-transform: none; border-bottom: none;" onmouseover="this.style.backgroundColor='#f7f9fc'; this.style.color='#d4af37';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#051c3e';">Academics Overview</a>
-                    <a href="academics.html" style="color: #051c3e !important; padding: 12px 18px; display: block; font-size: 0.9rem; font-weight: 600; text-decoration: none; transition: all 0.2s; white-space: nowrap; text-transform: none; border-bottom: none;" onmouseover="this.style.backgroundColor='#f7f9fc'; this.style.color='#d4af37';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#051c3e';">Public Disclosure</a>
+                    <a href="disclosure.html" style="color: #051c3e !important; padding: 12px 18px; display: block; font-size: 0.9rem; font-weight: 600; text-decoration: none; transition: all 0.2s; white-space: nowrap; text-transform: none; border-bottom: none;" onmouseover="this.style.backgroundColor='#f7f9fc'; this.style.color='#d4af37';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#051c3e';">Public Disclosure</a>
                 </div>
             </div>
-<!--            <a href="academics.html" class="active">Academics</a>-->
+
             <a href="facilities.html">Facilities</a>
             <a href="gallery.html">Gallery</a>
             <a href="admissions.html">Admissions</a>
@@ -82,12 +80,10 @@
                 <p>Practical performance setup across lab infrastructure systems and project metrics.</p>
             </div>
             <div class="approach-item">
-    <div class="approach-icon">
-        <i class="fas fa-seedling"></i>
-    </div>
-    <h3>Holistic Development</h3>
-    <p>Balanced emotional intellect indicators along with sportsmanship profiles.</p>
-</div>
+                <div class="approach-icon"><i class="fas fa-seedling"></i></div>
+                <h3>Holistic Development</h3>
+                <p>Balanced emotional intellect indicators along with sportsmanship profiles.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -98,22 +94,6 @@
             <span>ACADEMIC PROGRAMS</span>
             <h2>Detailed Curriculum Portfolios</h2>
         </div>
-
-<!--        <div class="academic-level-card grid-2-wide">-->
-<!--            <div class="level-img">-->
-<!--                <img src="assets/images/academics/Nursery.jpeg" alt="Nursery & Pre-Primary">-->
-<!--            </div>-->
-<!--            <div class="level-details">-->
-<!--                <h3>Nursery & Pre-Primary</h3>-->
-<!--                <p class="gold-text bold">A joyful beginning with play based learning methodologies.</p>-->
-<!--                <p>Focuses on basic spatial tracking, motor coordination metrics, vocal alignment structures and primary interaction principles via immersive play toolsets.</p>-->
-<!--                <ul class="level-list">-->
-<!--                    <li><i class="fas fa-check-circle"></i> Activity oriented methodology guidelines</li>-->
-<!--                    <li><i class="fas fa-check-circle"></i> Theme-based learning models</li>-->
-<!--                    <li><i class="fas fa-check-circle"></i> Personal care and highly warm environments</li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
 
         <div class="academic-level-card grid-2-wide inverse">
             <div class="level-details">
@@ -133,7 +113,7 @@
 
         <div class="academic-level-card grid-2-wide">
             <div class="level-img">
-<img src="assets/images/academics/middle-school.jpeg" alt="Middle School">
+                <img src="assets/images/academics/middle-school.jpeg" alt="Middle School">
             </div>
             <div class="level-details">
                 <h3>Middle School (Grades VI to VIII)</h3>
@@ -146,23 +126,6 @@
                 </ul>
             </div>
         </div>
-
-<!--        <div class="academic-level-card grid-2-wide inverse">-->
-<!--            <div class="level-details">-->
-<!--                <h3>High & Senior Secondary (Grades IX to XII)</h3>-->
-<!--                <p class="gold-text bold">Academic excellence with character development & stream specialization.</p>-->
-<!--                <p>Rigorous boards preparatory frameworks offering specialized streams: Science, Commerce & Humanities. Structured around maximizing score parameters and cracked selection arrays.</p>-->
-<!--                <ul class="level-list">-->
-<!--                    <li><i class="fas fa-check-circle"></i> Rigorous laboratory experimentation arrays</li>-->
-<!--                    <li><i class="fas fa-check-circle"></i> Mock board validation tracking models</li>-->
-<!--                    <li><i class="fas fa-check-circle"></i> Career path orientation & tracking advice</li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--            <div class="level-img">-->
-<!--                <img src="assets/images/academics/senior-secondary.jpeg" alt="Senior Secondary">-->
-<!--            </div>-->
-<!--        </div>-->
-
     </div>
 </section>
 
@@ -210,6 +173,7 @@
                 <li><a href="academics.html">Academics</a></li>
                 <li><a href="facilities.html">Facilities</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="disclosure.html">Public Disclosure</a></li>
                 <li><a href="admissions.html">Admissions</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
